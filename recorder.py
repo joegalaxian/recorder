@@ -53,7 +53,7 @@ def record(stream_url, **kwargs):
 			size = 0
 			for chunk in r.iter_content(chunk_size):
 				fd.write(chunk)
-				if verbose: 
+				if verbose:
 					# https://stackoverflow.com/questions/3173320/text-progress-bar-in-the-console
 					size += len(chunk)
 					progress = '\r%s[*] RECORDING - %s - %s%s' % ('\033[91m', time.strftime('%H:%M:%S', time.gmtime(int(time.time() - t0))), size_fmt(size), '\033[0m')
