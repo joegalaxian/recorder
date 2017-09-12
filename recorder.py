@@ -65,4 +65,5 @@ def record(stream_url, **kwargs):
 			pass
 
 if __name__ == '__main__':
+	# Ignore standalone execution
 	pass
