@@ -1,0 +1,2 @@
+metro 'http://mp3.metroaudio1.stream.avstreaming.net:7200/metro'
+blue 'http://mp3.metroaudio1.stream.avstreaming.net:7200/bluefmaudio1'
